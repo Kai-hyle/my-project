@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 /* NotchShelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000201 /* NotchShelfApp.swift */; };
+		100000000000000000000102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000202 /* AppDelegate.swift */; };
+		100000000000000000000103 /* ShelfItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000203 /* ShelfItem.swift */; };
+		100000000000000000000104 /* ShelfStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000204 /* ShelfStore.swift */; };
+		100000000000000000000105 /* FileIconService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000205 /* FileIconService.swift */; };
+		10000000000000000000010C /* ShelfStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020E /* ShelfStorageService.swift */; };
+		10000000000000000000010E /* LoginItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000210 /* LoginItemService.swift */; };
+		100000000000000000000106 /* NotchWindowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000206 /* NotchWindowState.swift */; };
+		100000000000000000000107 /* NotchWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000207 /* NotchWindowController.swift */; };
+		100000000000000000000108 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000208 /* VisualEffectView.swift */; };
+		100000000000000000000109 /* DragReceiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000209 /* DragReceiverView.swift */; };
+		10000000000000000000010A /* ShelfPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020A /* ShelfPanelView.swift */; };
+		10000000000000000000010B /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020B /* StatusBarController.swift */; };
+		10000000000000000000010D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000201 /* NotchShelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchShelfApp.swift; sourceTree = "<group>"; };
+		100000000000000000000202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		100000000000000000000203 /* ShelfItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfItem.swift; sourceTree = "<group>"; };
+		100000000000000000000204 /* ShelfStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfStore.swift; sourceTree = "<group>"; };
+		100000000000000000000205 /* FileIconService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIconService.swift; sourceTree = "<group>"; };
+		10000000000000000000020E /* ShelfStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfStorageService.swift; sourceTree = "<group>"; };
+		100000000000000000000210 /* LoginItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemService.swift; sourceTree = "<group>"; };
+		100000000000000000000206 /* NotchWindowState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchWindowState.swift; sourceTree = "<group>"; };
+		100000000000000000000207 /* NotchWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchWindowController.swift; sourceTree = "<group>"; };
+		100000000000000000000208 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		100000000000000000000209 /* DragReceiverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragReceiverView.swift; sourceTree = "<group>"; };
+		10000000000000000000020A /* ShelfPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfPanelView.swift; sourceTree = "<group>"; };
+		10000000000000000000020B /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		10000000000000000000020C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10000000000000000000020D /* Better Norch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better Norch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10000000000000000000020F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000401 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000402 /* NotchShelf */,
+				100000000000000000000403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000402 /* NotchShelf */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000201 /* NotchShelfApp.swift */,
+				100000000000000000000202 /* AppDelegate.swift */,
+				100000000000000000000404 /* Models */,
+				100000000000000000000405 /* Stores */,
+				100000000000000000000406 /* Views */,
+				100000000000000000000407 /* Windows */,
+				100000000000000000000408 /* Services */,
+				100000000000000000000409 /* Menu */,
+				10000000000000000000040A /* Resources */,
+				10000000000000000000020C /* Info.plist */,
+			);
+			path = NotchShelf;
+			sourceTree = "<group>";
+		};
+		100000000000000000000403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000020D /* Better Norch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000203 /* ShelfItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		100000000000000000000405 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000204 /* ShelfStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		100000000000000000000406 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000208 /* VisualEffectView.swift */,
+				100000000000000000000209 /* DragReceiverView.swift */,
+				10000000000000000000020A /* ShelfPanelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		100000000000000000000407 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000206 /* NotchWindowState.swift */,
+				100000000000000000000207 /* NotchWindowController.swift */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		100000000000000000000408 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000205 /* FileIconService.swift */,
+				10000000000000000000020E /* ShelfStorageService.swift */,
+				100000000000000000000210 /* LoginItemService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		100000000000000000000409 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000020B /* StatusBarController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		10000000000000000000040A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000020F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000501 /* NotchShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000601 /* Build configuration list for PBXNativeTarget "NotchShelf" */;
+			buildPhases = (
+				100000000000000000000701 /* Sources */,
+				100000000000000000000301 /* Frameworks */,
+				100000000000000000000702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotchShelf;
+			productName = NotchShelf;
+			productReference = 10000000000000000000020D /* Better Norch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					100000000000000000000501 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 100000000000000000000602 /* Build configuration list for PBXProject "NotchShelf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100000000000000000000401;
+			productRefGroup = 100000000000000000000403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000501 /* NotchShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10000000000000000000010D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000101 /* NotchShelfApp.swift in Sources */,
+				100000000000000000000102 /* AppDelegate.swift in Sources */,
+				100000000000000000000103 /* ShelfItem.swift in Sources */,
+				100000000000000000000104 /* ShelfStore.swift in Sources */,
+				100000000000000000000105 /* FileIconService.swift in Sources */,
+				10000000000000000000010C /* ShelfStorageService.swift in Sources */,
+				10000000000000000000010E /* LoginItemService.swift in Sources */,
+				100000000000000000000106 /* NotchWindowState.swift in Sources */,
+				100000000000000000000107 /* NotchWindowController.swift in Sources */,
+				100000000000000000000108 /* VisualEffectView.swift in Sources */,
+				100000000000000000000109 /* DragReceiverView.swift in Sources */,
+				10000000000000000000010A /* ShelfPanelView.swift in Sources */,
+				10000000000000000000010B /* StatusBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		100000000000000000000802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		100000000000000000000803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotchShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaihyle.BetterNorch;
+				PRODUCT_NAME = "Better Norch";
+				PRODUCT_PACKAGE_TYPE = APPL;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		100000000000000000000804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotchShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaihyle.BetterNorch;
+				PRODUCT_NAME = "Better Norch";
+				PRODUCT_PACKAGE_TYPE = APPL;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000601 /* Build configuration list for PBXNativeTarget "NotchShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000803 /* Debug */,
+				100000000000000000000804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000602 /* Build configuration list for PBXProject "NotchShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000801 /* Debug */,
+				100000000000000000000802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000001 /* Project object */;
+}
